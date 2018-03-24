@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MyWindow</class>
+ <widget class="QMainWindow" name="MyWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>547</width>
+    <height>392</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MyWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPlainTextEdit" name="plainTextEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>461</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="plainText">
+     <string>Hardware Monitoring DashBoard - Prototype - Portand State University</string>
+    </property>
+   </widget>
+   <widget class="QDial" name="dial">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>180</y>
+      <width>111</width>
+      <height>111</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>320</y>
+      <width>93</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Version</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QDateTimeEdit" name="system_clock">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>330</y>
+      <width>194</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="progressBar">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>112</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="value">
+     <number>24</number>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdNumber">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>70</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdNumber_2">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>140</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSlider" name="verticalSlider">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>30</y>
+      <width>22</width>
+      <height>84</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>120</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Temperature</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>80</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Celsius</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>190</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Humidity</string>
+    </property>
+   </widget>
+   <widget class="QDialogButtonBox" name="buttonBox">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>280</y>
+      <width>193</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="standardButtons">
+     <set>QDialogButtonBox::Close|QDialogButtonBox::Open</set>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="ip_address">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>240</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="plainText">
+     <string>192.168.1.143</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>290</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>RPM</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Duty Cycle</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="connection_status">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>330</y>
+      <width>151</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>        Disconnected</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdNumber_3">
+    <property name="geometry">
+     <rect>
+      <x>153</x>
+      <y>130</y>
+      <width>161</width>
+      <height>81</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
